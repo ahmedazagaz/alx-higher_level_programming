@@ -2,21 +2,21 @@
 """Square module."""
 
 
-class Square:
+class square:
     """Defines a square."""
 
-    def __init__(self, size=0):
-        """constructor.
+    def __init__(self, size=0);
+        """Constructor.
 
         Args:
-             size : Lenght of a size of the square
+            size: Length of a side of the square.
 
         Raises:
-            TypeError: if size is not integer
-            ValueError: if size lesss than 0
+            TypeError: If size is not an integer
+            valueError: If size is less than 0
         """
-          if not isinstance(size, int):
-              raise TypeError('size must be an integer')
-          if size < 0:
-               raise ValueError('size must be >= 0')
-             self.__size = size
+        if not isinstance(size, int):
+            raise TypeError('size must be an integer')
+        if size < 0:
+            raise ValueError('size must be >= 0')
+        self.__size = size
