@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/pytho#!/usr/bin/python3
 """Define a MagicClass."""
 
 import math
@@ -17,12 +17,12 @@ class MagicClass:
         """
         if not isinstance(radius, (int, float)):
             raise TypeError("radius must be a number")
-        self.__radius = radiusa
+        self.__radius = radius
 
     def area(self):
-        """Return the area of the MagicClass."""
+        """Return area."""
         return self.__radius ** 2 * math.pi
 
     def circumference(self):
-        """Return the circumference of the MagicClass."""
+        """Return circumference."""
         return 2 * math.pi * self.__radius
