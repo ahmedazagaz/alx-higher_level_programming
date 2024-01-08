@@ -8,9 +8,9 @@ def lookup(obj):
     of an object.
 
     Args:
-        obj: The object to list.
+        obj (object): the object to list.
 
     Returns:
-        list: List of attributes and methods of an object.
+        list: the List of attributes.
     """
     return dir(obj)
