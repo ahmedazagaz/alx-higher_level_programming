@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Module for the lookup method. """
+""" Module for the lookup method """
 
 
 def lookup(obj):
@@ -8,9 +8,9 @@ def lookup(obj):
     of an object.
 
     Args:
-        obj (object): The object to list.
+        obj: The object to list.
 
     Returns:
-        list: List of attributes.
+        list: List of attributes and methods of an object.
     """
     return dir(obj)
