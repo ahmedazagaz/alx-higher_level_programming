@@ -6,7 +6,11 @@ BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
-    """A subclass representing a rectangle."""
+    """A subclass of basegeo.
+    Args:
+        width: the w
+        height: the h
+    """
     def __init__(self, width, height):
         '''Constructor.'''
         self.integer_validator("width", width)
