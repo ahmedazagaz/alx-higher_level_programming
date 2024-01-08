@@ -1,21 +1,22 @@
 #!/usr/bin/python3
 """
-Module for add_integer method.
+This is the "0-add_integer" module.
+The 0-add_integer module contain one function, add_integer(a, b).
 """
 
 
 def add_integer(a, b=98):
-    """ Adds two integers.
+    """ function that add two varables
 
     Args:
-        a: first integer
-        b: second integer , default 98.
+        a: first arg int
+        b: second arg int
     
     Raises:
-        TypeError: if a,b are not int or float
+        TypeError: if a and b are not int or float
 
     Return:
-        the sum of the two integers.
+        the sum of a and b
     """
     
     if not isinstance(a, (int, float)):
