@@ -79,6 +79,6 @@ This is a preparatory project to learn how to manipulate the DOM with jQuery bef
 - **Description:** A JavaScript script that uses jQuery to fetch and display how to say "Hello" in a given language using the API `https://www.fourtonfish.com/hellosalut/hello/`.
   - Identical to [102-script.js](./102-script.js) except that the translation is fetched when either the user clicks on the HTML tag `INPUT#btn_translate` or presses `ENTER` when hovering over the tag `INPUT#language_code`.
 
-## Authors
+## Author
 
 - [Ahmed Azagaz](https://www.linkedin.com/in/ahmed-azagaz-0678b7281/)
