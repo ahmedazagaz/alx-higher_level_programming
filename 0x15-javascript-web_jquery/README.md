@@ -81,5 +81,5 @@ This is a preparatory project to learn how to manipulate the DOM with jQuery bef
 
 ## Authors
 
-- Ahmed Azagag
+- Ahmed Azagaz
 
